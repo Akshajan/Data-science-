@@ -5,7 +5,7 @@ import statsmodels.api as sm
 
 # Load the dataset
 # Replace 'data/Advertising.csv' with the correct path to your CSV file
-data = pd.read_csv('data/Advertising.csv')
+data = pd.read_csv('Advertisement-trend-on-sales/Advertising.csv')
 
 # Define predictors (TV, radio, newspaper) and target (sales)
 X = data[['TV', 'radio', 'newspaper']]  # Predictors

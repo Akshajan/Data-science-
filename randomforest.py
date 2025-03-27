@@ -5,7 +5,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.model_selection import train_test_split
 
 #reading the csv file
-df = pd.read_csv('data/advertising.csv')
+df = pd.read_csv('Advertisement-trend-on-sales/advertising.csv')
 
 
 # Separate Features and Target
